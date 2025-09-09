@@ -17,7 +17,7 @@ from ultralytics import YOLO
 
 ruta_modelo = "best.pt"
 if not os.path.exists(ruta_modelo):
-    url = "https://drive.google.com/uc?id=1RI26af3A3xSfIMAKlYpLcUmXQwg8EtH5"
+    url = "https://drive.google.com/uc?id=1UDJfAgxzDZTGLZXsTcASWL4vgqazI5ez"
     gdown.download(url, ruta_modelo, quiet=False)
 
 def init_session_state():
